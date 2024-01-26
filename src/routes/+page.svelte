@@ -7,7 +7,7 @@ onMount(() => {
 
 import Home from './Home.svelte';
 import Projects from './Projects.svelte';
-import About from './About.svelte'
+import About from './About.svelte';
 import Misc from './Misc.svelte';
 
 let currentView = 'home';
@@ -21,17 +21,18 @@ const changeView = (view) => {
     :global(html, body) {
         color: limegreen;
         background-color: black;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 </style>
 
 <div>
-    <div>hi, i'm sahil</div>
-    <div>software engineer</div>
+    <div>sahil</div>
+    <div>systems builder/software engineer/wannabe wizard</div>
     <div>
         <a href='https://twitter.com/sahilsaitn' target='_blank' rel='norefferer'>twt</a>
         <a href='https://github.com/sahilsait' target='_blank' rel='norefferer'>github</a>
         <a href='https://www.linkedin.com/in/sahilsait/' target='_blank' rel='norefferer'>linkedin</a>
-        <a href='mailto:sahilsaitdev@gmail.com' target='_blank' rel='norefferer'>email</a>
     </div>
     <nav>
         <button on:click={() => changeView('home')}>home</button>
