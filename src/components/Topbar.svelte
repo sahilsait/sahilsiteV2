@@ -4,11 +4,11 @@
 </script>
 
 <div>
-    <div class="flex flex-row justify-between items-start mt-5">
-        <div class="text-5xl">Sahil Sait</div>
+    <div class="flex flex-row justify-between items-start mt-5 py-2">
+        <div class="text-5xl font-bold text-secondary">Sahil Sait</div>
         <img src={pic} alt="me" class="w-10 h-15 rounded"/>
     </div>
-    <div class="flex flex-row justify-between items-center mt-2 "> 
+    <div class="flex flex-row justify-between items-center font-bold"> 
         <div class="text-xl">systems builder / wannabe wizard</div>
         <div class="space-x-2">
             <a href='https://twitter.com/sahilsaitn' target='_blank' rel='norefferer'><i class="fa-brands fa-twitter"></i>

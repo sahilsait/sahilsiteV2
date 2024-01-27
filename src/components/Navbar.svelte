@@ -13,7 +13,7 @@
 
 </script> 
 
-<nav class="py-4 flex space-x-5 underline">
+<nav class="py-4 flex space-x-2 underline">
     <button on:click={() => changeView('home')}>home</button>
     <button on:click={() => changeView('projects')}>projects</button>
     <button on:click={() => changeView('about')}>about</button>

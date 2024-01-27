@@ -14,12 +14,12 @@ import Navbar from '../components/Navbar.svelte';
 
 <style>
     :global(html, body) {
-        color: limegreen;
+        background-color: #6F9BD1;
         scroll-behavior: smooth;
     }
 </style>
 
-<div class="mx-4 sm:m-6 md:m-8 lg:m-10 xl:m-12 2xl:m-16">
+<div class="max-w-screen-md mx-auto px-4 font-Roboto">
     <Topbar />
     <Navbar />
 </div>
