@@ -1,10 +1,10 @@
 export default function Whoami() {
   return (
     <main>
-      <h2 className="text-2xl font-bold text-green-400 mb-4">Why me?</h2>
+      <h2 className="text-2xl font-bold text-green-400 mb-4">why me?</h2>
       <p className="mb-4">
-        Writing this has been thinking - "I really need to learn to yap". On
-        a more serious note, AGI is coming and we need to accelerate
+        Writing this has been thinking - "I really need to learn to yap". On a
+        more serious note, AGI is coming and we need to accelerate
       </p>
       <p className="mb-4">
         My expertise includes [list your key skills or areas of focus, e.g.,
